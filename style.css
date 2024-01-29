@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#headerExample{
+    display: inline-flex;
+    list-style-type: none;
+    border: none;
+    color: green;
+}
+
+#header{
+    text-align: center;
+    color: green;
+}
+
+p{
+    text-align: center;
+    color: green;
+}
+h1 h2 h3 h4 h5 h6 {
+    color: green;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+#list tr td {
+    border: 2px solid green;
+    color: green;
+}
+
+
+
+li {
+    color: green;
+}

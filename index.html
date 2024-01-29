@@ -6,33 +6,89 @@
     <title>Hello World</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 class="link">Hello World</h1>
-    <h2>Hello</h2>
-    <h3>Hola</h3>
+    <h1 id="header">This page will make sure you never forget how to code!</h1>
+    <p>Here, we will go over all the basic necesities needed in order to never forget how to code.</p>
     <br>
-    <h4>What are you doing?</h4>
-    <h5>Oh. Hi.</h5>
-    <h6>Bonjour</h6>
-    <p class="link">This is my first website! Sorta...</p>
-    <p id="link"><em>I may have not been fully honest about my experience</em></p>
-    <p><i>But I also forgot to answer the question</i></p>
-    <p><b>I'm doing this to put the different tags</b></p>
-    <button><a href="https://www.google.com/gmail/about/" target="_blank">Domain Expansion</a></button>
-    <p id="link"><a href="https://www.fordham.edu/academics/departments/visual-arts/" target="_blank">Click here to go to you know where...</a></a></p>
-    <p>This is something cool that I am learning right now! <a href="mailto:jscreen@fordham.edu">Email me here!</a></p>
+    <p>When working is Visual Stuido Code (VS CODE for short), open a new file and call it "index.html"</p>
+    <p>Once you are in, to a short cut in vscode which I personally find super helpful is typing "!" and pressing tab.</p>
+    <p>It should look a little like this:</p>
+    <img  src="images/htmlStartCode.png" height="150px" alt="" allign="center">
+    
+    <br>
+    
+    <p>With this, you can finally start coding! But how you might ask? Don't worry, I will show you!</p>
+    <br>
+    <p>First thing that we want to go over, headings.</p>
+    <p>These are large blocks of text that will help emphasize what you want on your website. There are 6 types of headers: h1-h6. This is what they look like.</p>
+
+    <table id="headerExample">
+        <tr>
+            <td><h1>H1</h1></td>
+            <td><h2>H2</h2></td>
+            <td><h3>H3</h3></td>
+            <td><h4>H4</h4></td>
+            <td><h5>H5</h5></td>
+            <td><h6>H6</h6></td>
+        </tr>
+    </table>
+ 
+    <p>Now, how might you do this yourself?</p>
+    <p>Great question! It would look like this:</p>
+    <img src="images/headerTutorial.png" height="100px">
+    <p>Keep in mind that you need to always have your opening and closing tags with this element.</p>
+    <p>But Website! How do I put normal text like you're doing now?</p>
+    <p>Well my inteligent coder, all you need to do is use a p tag. That just looks like this: "&lt;p&gt;&lt;/p&gt;"</p>
+    <p>Some symbols will automatically be read as part of the code such as the greater than and less than signs, so there are some alternate ways to type these symbols. You can look them all up. A great source to fins all of this information is <a href="https://stackoverflow.com" target="_blank">Stock Overflow</a></p>
+    <p>Now there are a ton of other tags and I will provide a list of some because there are a lot and <a href="https://w3schools.com" target="_blank">W3Schools</a> has them all.</p>
     <hr>
-
+    <table id="list">
+        <tr>
+            <td>Elements</td>
+            <td>What they do</td>
+            <td>What else they need</td>
+        </tr>
+        <tr>
+            <td>&lt;a&gt;&lt;/a&gt;</td>
+            <td>This creates a link between this page and another</td>
+            <td>href="insert website here"<br>target="_black" to open new page</td>
+        </tr>
+        <tr>
+            <td>&lt;table&gt;&lt;/table&gt;</td>
+            <td>Creates a table</td>
+            <td>&lt;tr&gt;&lt;/tr&gt; to create another row <br>&lt;td&gt;&lt;/td&gt; adds another column and the tag you put the text in</td>
+        </tr>
+        <tr>
+            <td>&lt;img&gt;</td>
+            <td>This adds an image</td>
+            <td>Move image into folder you are working on <br>src="insert path to image"</td>
+        </tr>
+        <tr>
+            <td>&lt;br&gt;</td>
+            <td>This adds a break to the text</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>&lt;hr&gt;</td>
+            <td>This adds a page break like line</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>&lt;ul&gt;&lt;/ul&gt;</td>
+            <td>Creates an unordered list</td>
+            <td>Can change or get rid of the dot in css by using the line "text-decortation"</td>
+        </tr>
+        <tr>
+            <td>&lt;ol&gt;</td>
+            <td>Creates an ordered list</td>
+            <td>Can change or get rid of the number in css by using the line "text-decortation"</td>
+        </tr>
+    </table>
+    <p>Helpful tips:</p>
     <ul>
-        <li>Here</li>
-        <li>Is</li>
-        <li>a list</li>
+        <li>"." in css is for class</li>
+        <li>"#" in css is for id</li>
     </ul>
-
-    <ol>
-        <li>stuff</li>
-        <li>More stuff</li>
-        <li>All the stuff</li>
-    </ol>
 </body>
 </html>
