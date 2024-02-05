@@ -1,43 +1,21 @@
-body {
-    background-color: black;
+div{
+    text-align: left;
 }
 
-#headerExample{
-    display: inline-flex;
-    list-style-type: none;
-    border: none;
-    color: green;
-}
+h1{text-align: center;}
+h3{text-align: center;}
 
-#header{
-    text-align: center;
-    color: green;
+.left{
+    text-align: left;
+    float: right;
+    align-content: flex-end;
+    text-wrap: left;
+    height: 75px;
 }
-
-p{
-    text-align: center;
-    color: green;
-}
-h1 h2 h3 h4 h5 h6 {
-    color: green;
-}
-
-a{
-    text-decoration: none;
-    color: red;
-}
-a:hover{
-    color: purple;
-    text-decoration: underline;
-}
-
-#list tr td {
-    border: 2px solid green;
-    color: green;
-}
-
-
-
-li {
-    color: green;
+.right{
+    text-align: right;
+    float: left;
+    align-content: flex-start;
+    text-wrap: right;
+    height: 70px;
 }
