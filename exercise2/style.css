@@ -1,0 +1,21 @@
+div{
+    text-align: left;
+}
+
+h1{text-align: center;}
+h3{text-align: center;}
+
+.left{
+    text-align: left;
+    float: right;
+    align-content: flex-end;
+    text-wrap: left;
+    height: 75px;
+}
+.right{
+    text-align: right;
+    float: left;
+    align-content: flex-start;
+    text-wrap: right;
+    height: 70px;
+}
