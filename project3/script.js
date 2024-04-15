@@ -210,6 +210,7 @@ no3[7] = "At first, you simply listen, but then you are asked to tell a tale of 
 no3[8] = "Do you tell a story?"
 
 function next6(){
+    console.log(g);
     $("#no3").fadeOut(1000);
     window.setTimeout(add, 1500);
     function add(){
