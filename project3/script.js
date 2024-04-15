@@ -218,7 +218,8 @@ function next6(){
             if (g == 8){
                 document.getElementById("next").hidden = true;
                 document.getElementById("prev").hidden = true;
-                document.getElementById("no3").hidden = false;
+                document.getElementById("yes").hidden = false;
+                document.getElementById("no").hidden = false;
             }
         }
         $("#no3").fadeIn(1500);
