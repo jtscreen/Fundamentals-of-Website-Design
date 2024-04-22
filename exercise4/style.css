@@ -1,0 +1,57 @@
+*{
+    background-color: pink;
+}
+#smile{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(img/smile2.jpg);
+}
+
+@media screen and (max-width: 1300px) {
+    *{
+        background-color: lightblue;
+    }
+    #smile{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(img/smile1.jpg);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    *{
+        background-color: lightgoldenrodyellow;
+    }
+    #smile{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(img/smile3.jpg);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    *{
+        background-color: lightseagreen;
+    }
+    #smile{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(img/smile5.jpg);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    *{
+        background-color: lightcoral;
+    }
+    #smile{
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(img/smile4.jpg);
+    }
+}
